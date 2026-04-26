@@ -160,16 +160,6 @@ Just add the course again under the new semester as normal. The Cumulative GPA c
 
 ---
 
-## Planned Features
-
-- [ ] Supabase cloud sync support
-- [ ] Export semester report to PDF
-- [ ] Dark / light mode toggle
-- [ ] Custom GPA scale configuration UI
-- [ ] Grade history and trend charts per course
-
----
-
 ## License
 
 MIT License. See `LICENSE` for details.
