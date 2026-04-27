@@ -77,51 +77,24 @@ markmanager/
 
 ---
 
-## Installation
+## Download
 
-### Prerequisites
+Go to the [Releases](https://github.com/mohamedabdu17/MarkManager/releases) 
+page and download the latest `MarkManager.exe`. No installation required — 
+just run it.
 
-- Python 3.11 or higher
-- pip
+Your data is saved automatically at:
+`C:\Users\YOU\AppData\Roaming\MarkManager\markmanager.db`
 
-### Steps
+## For Developers
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/markmanager.git
-cd markmanager
-```
+If you want to run from source:
 
-**2. Create and activate a virtual environment**
-```bash
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-# macOS / Linux
-source .venv/bin/activate
-```
-
-**3. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**4. Set up your `.env` file**
-```bash
-cp .env.example .env
-```
-The default `.env` works out of the box for local SQLite — no changes needed to get started.
-
-**5. Run the app**
-```bash
-python main.py
-```
-
-The database file (`markmanager.db`) is created automatically on first launch.
-
----
+1. Clone the repo
+2. Create a virtual environment: `python -m venv .venv`
+3. Activate it: `.venv\Scripts\activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run: `python main.py`
 
 ## Dependencies
 
